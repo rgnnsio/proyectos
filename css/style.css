@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+}
+
+header{
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+header img{
+    width: 57px;
+    height: 57px;
+    margin: 3px;
+}
+header ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.header-a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header-a:hover{
+    color: gray;
+    text-decoration: solid;
+}
+
+.title{
+    text-align: center;
+    text-shadow: rgb(10, 10, 10) 1px 0 10px;
+}
+
+.image{
+    background-image: url(../medias/Projetos-de-arquitetura.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.grid-container{
+    background-color: rgb(5, 5, 5);
+    display: grid;
+    text-align: center;
+    color: white;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+section div img{
+    width: 80%;
+    border-radius: 8px;
+}
+
+section div{
+    border: solid 5px white;
+}
+section{
+    justify-items: center;
+}
+
+.font{
+    color: white;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+}
+
+footer h2{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+.img-proyecto{
+    width: 300px;
+    height: 500px;
+    border: solid 3px white;
+}
+
+.size-img{
+    width: 300px;
+    height: 200px;
+    border: solid 3px white;
+}
+
+.background{
+    background-color: black;
+}
+
+.align{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.title-nosotros{
+    color: black;
+}
+
+.box{
+    max-width: 100%;
+}
